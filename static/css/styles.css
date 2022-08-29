@@ -1,0 +1,56 @@
+                                    .img1 {
+                                        margin-top: 6px;
+                                        margin-bottom: 9px;
+                                        height: 50px;
+                                        align-self: center;
+                                    }
+                                    
+                                    .inp {
+                                        width: 650px;
+                                        height: 50px;
+                                        border-radius: 22px;
+                                        background-color: rgba(255, 255, 255, 0.18);
+                                        font-size: 38px;
+                                        padding: 12px 20px;
+                                    }
+                                    
+                                    .inp[type=text]:focus {
+                                        background-color: transparent;
+                                        text-align: center;
+                                    }
+                                    
+                                    .inp:hover,
+                                    select:hover {
+                                        border-color: transparent;
+                                        box-shadow: 0 0 0 5px rgb(0, 122, 209);
+                                    }
+                                    
+                                    .inp[type=text] {
+                                        transition: width 0.8s ease-in-out;
+                                    }
+                                    
+                                    .inp[type=text]:focus {
+                                        width: 90%;
+                                    }
+                                    
+                                    .inp:hover {
+                                        color: black;
+                                    }
+                                    
+                                    .card {
+                                        background: rgba(255, 255, 255, 0.75);
+                                        box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+                                        backdrop-filter: blur( 0px);
+                                        -webkit-backdrop-filter: blur( 0px);
+                                        border-radius: 10px;
+                                        border: 1px solid rgba( 255, 255, 255, 0.18);
+                                    }
+                                    
+                                    .card1 {
+                                        background: rgba( 159, 255, 190, 0.25);
+                                        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+                                        backdrop-filter: blur( 4px);
+                                        -webkit-backdrop-filter: blur( 4px);
+                                        border-radius: 10px;
+                                        border: 1px solid rgba( 255, 255, 255, 0.18);
+                                    }
